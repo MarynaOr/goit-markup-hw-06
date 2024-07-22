@@ -1,0 +1,111 @@
+
+
+/* header */
+body {
+  font-family: Roboto;
+  color: #2E2F42;
+}
+
+p {
+  color: #434455;
+}
+
+.header-nav {
+  background-color: white;
+}
+
+.header-logo {
+  font-family: Raleway;
+ font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+ 
+  text-align: left;
+  color: #2E2F42;
+}
+.heder-lolgo-web {
+  color: #4D5AE5;
+}
+
+.list-header {
+font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+.header-adress {
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+/* main */
+
+
+/* hero */
+
+.section-hero {
+  background: #2E2F42;
+}
+
+.title-hero {
+  font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-batton {
+ cursor: pointer;
+border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+ background: #4D5AE5;
+color: white;
+}
+
+/* section-1 */
+
+section {
+  background-color: white;
+}
+
+.section-1-item {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    
+
+}
+
+.section-1-text {
+font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+
+/* our team */
+
+.sectoin-our-team {
+  background-color: #F4F4FD;
+}
+
+.our-team-text {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    
+  color: #434455;
+}

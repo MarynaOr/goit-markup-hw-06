@@ -5,26 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Header -->
     <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+      <nav class="header-nav">
+        <a href="./index.html" class="header-logo"
+          ><span class="heder-lolgo-web">Web</span>Studio</a
+        >
+        <ul class="list-header">
           <li><a href="./index.html">Studio</a></li>
           <li><a href="./index.html">Portfolio</a></li>
           <li><a href="./index.html">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="header-adress">
         <ul>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
@@ -33,16 +46,16 @@
     </header>
     <!-- Mine -->
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-hero">
+        <h1 class="title-hero">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-batton">Order Service</button>
       </section>
       <section>
         <h2>...</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="section-1-item">Strategy</h3>
+            <p class="section-1-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
@@ -70,18 +83,18 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="sectoin-our-team">
         <h2>Our Team</h2>
         <ul>
           <li>
             <img src="./images/team-card1.jpg" width="264" alt="team-card1" />
             <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <p class="our-team-text">Product Designer</p>
           </li>
           <li>
             <img src="./images/team-card2.jpg" width="264" alt="team-card2" />
             <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <p class="our-team-text">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/team-card3.jpg" width="264" alt="team-card3" />
@@ -91,7 +104,7 @@
           <li>
             <img src="./images/team-card4.jpg" width="264" alt="team-card4" />
             <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="our-team-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -108,7 +121,7 @@
               height="300"
             />
             <h3>Banking App</h3>
-            <p>App</p>
+            <p class="our-team-text">App</p>
           </li>
           <li>
             <img
@@ -118,7 +131,7 @@
               height="300"
             />
             <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <p class="our-team-text">Marketing</p>
           </li>
           <li>
             <img
@@ -128,7 +141,7 @@
               height="300"
             />
             <h3>Meditaion App</h3>
-            <p>App</p>
+            <p class="our-team-text">App</p>
           </li>
           <li>
             <img
@@ -138,7 +151,7 @@
               height="300"
             />
             <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <p class="our-team-text">Marketing</p>
           </li>
           <li>
             <img
@@ -148,7 +161,7 @@
               height="300"
             />
             <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <p class="our-team-text">Design</p>
           </li>
           <li>
             <img
@@ -158,7 +171,7 @@
               height="300"
             />
             <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <p class="our-team-text">Marketing</p>
           </li>
         </ul>
       </section>
