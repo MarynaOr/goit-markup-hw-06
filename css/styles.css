@@ -17,7 +17,8 @@ p {
 
 .header-logo {
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: "Raleway",
+    sans-serif;
  font-weight: 700;
 font-size: 18px;
 line-height: 117%;
@@ -35,11 +36,18 @@ font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  
+}
+.header-item-studio {
+  color: #2e2f42;
 }
 
 .header-item-studio:hover {
   color: #404bbf;
+}
+
+.adress {
+  font-style: normal;
 }
 
 .header-adress {
@@ -53,8 +61,13 @@ font-style: normal;
 
 }
 
+.header-item-mail {
+  color: #434455;
+}
 
-
+.header-item-mail:hover {
+  color: #404bbf;
+}
    
 .header-adress-hov:hover {
   color: #404bbf;
@@ -101,6 +114,7 @@ color: white;
 
 .hero-button:hover {
   background-color: #404BBF;
+  
 }
 
 /* section-1 */
@@ -115,8 +129,13 @@ section {
     line-height: 120%;
     letter-spacing: 0.02em;
     
-
+color: #2e2f42;
 }
+
+.section-two-text{
+  color: #2e2f42;
+}
+
 
 
 /* our team */
