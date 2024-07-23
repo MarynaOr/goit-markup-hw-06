@@ -7,9 +7,7 @@ body {
   background-color: #FFFFFF;
 }
 
-p {
-  color: #434455;
-}
+
 
 .header-nav {
   background-color: white;
@@ -27,6 +25,7 @@ letter-spacing: 0.03em;
   text-align: left;
   color: #4d5ae5;
 }
+
 .heder-logo-studio {
   color: #2e2f42;
 }
@@ -45,6 +44,11 @@ font-weight: 500;
 .header-item-studio:hover {
   color: #404bbf;
 }
+
+.header-item-studio:active {
+  color: #404bbf
+}
+
 
 .adress {
   font-style: normal;
@@ -68,23 +72,19 @@ font-style: normal;
 .header-item-mail:hover {
   color: #404bbf;
 }
-   
-.header-adress-hov:hover {
+.header-item-mail:active {
   color: #404bbf;
 }
+
+   
+
 
 /* main */
 
 
 /* hero */
 
-p {
-  font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 
 .section-hero {
   background: #2E2F42;
@@ -117,11 +117,14 @@ color: white;
   
 }
 
-/* section-1 */
-
-section {
-  background-color: white;
+.hero-button:active {
+  background-color: #404BBF;
 }
+
+
+/* section-2 */
+
+
 
 .section-item-desk {
   font-weight: 500;
@@ -133,7 +136,7 @@ color: #2e2f42;
 }
 
 .section-two-text{
-  color: #2e2f42;
+  color: #434455;
 }
 
 
@@ -143,24 +146,54 @@ color: #2e2f42;
 .sectoin-our-team {
   background-color: #F4F4FD;
 }
+.section-item-desk-our-team {
+  font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+
+.our-team-item {
+  background-color: #FFFFFF;
+
+}
+
+ .our-team-text {
+    font-size: 16px;
+    line-height: 150%;
+      letter-spacing: 0.02em;
+      color: #434455;
+ }
+
+
+
+
+
 
 
 /* footer */
 
-footer {
+.footer {
   background-color: #2E2F42;
 }
 
 .footer-logo {
+  font-family: "Raleway",
+    sans-serif;
   font-weight: 700;
 font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 color: #F4F4FD;
+text-transform: uppercase;
+
 }
 
 .footer-logo-web {
- color: #4D5AE5;
+ color: #F4F4FD;
 }
 
 .footer-text {
