@@ -80,7 +80,9 @@ font-style: normal;
 }
 
    
-
+.header-item-mail:focus {
+  color: #404bbf;
+}
 
 /* main */
 
