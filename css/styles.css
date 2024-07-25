@@ -7,7 +7,14 @@ body {
   background-color: #FFFFFF;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
 
+a {
+  text-decoration: none;
+}
 
 .header-nav {
   background-color: white;
