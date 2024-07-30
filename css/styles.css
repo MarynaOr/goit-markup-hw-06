@@ -1,6 +1,6 @@
 
 
-/* header */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -15,6 +15,18 @@ ol {
 a {
   text-decoration: none;
 }
+
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+
+/* header */
+
+
 
 .header-nav {
   background-color: white;
