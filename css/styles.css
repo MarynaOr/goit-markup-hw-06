@@ -23,9 +23,10 @@ a {
 
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
+  display: flex;
 }
 
 
@@ -38,6 +39,7 @@ a {
  align-items: center;
  justify-content: space-between;
  margin: 0;
+ border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-con {
@@ -49,6 +51,7 @@ a {
   background-color: white;
 
 display: flex;
+align-items: center;
 }
 
 .header-logo {
@@ -76,11 +79,12 @@ display: flex;
   letter-spacing: 0.02em;
   display: flex;
   padding: 0;
-  margin: 24px 0 24px 0;
+  margin: 24px 0;
   gap: 40px;
 }
 .header-item-studio {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-item-studio:hover {
