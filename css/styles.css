@@ -10,6 +10,7 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 ul,
@@ -26,11 +27,13 @@ a {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
-  display: flex;
+  
 }
 
 img {
   display: block;
+  height: auto;
+    max-width: 100%;
 }
 
 
@@ -38,21 +41,21 @@ img {
 
 
 
-.header-container {
- justify-content: space-between;
- margin: 0;
+.header {
+
  border-bottom: 1px solid #e7e9fc;
 }
 
-.nav-con {
+.header-container {
   display: flex;
+  align-items: center;
 }
-
 
 .header-nav {
   background-color: white;
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .header-logo {
@@ -83,13 +86,14 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   display: flex;
-  padding: 24px 0;
-  margin: 24px 0;
+  
   gap: 40px;
 }
 .header-item-studio {
   color: #2e2f42;
   padding: 24px 0;
+
+
 }
 
 .header-item-studio:hover {
@@ -107,6 +111,7 @@ img {
 .adress {
   font-style: normal;
   display: flex;
+  margin-left: auto;
 }
 
 .header-adress {
@@ -118,9 +123,10 @@ img {
   color: #434455;
   font-style: normal;
   display: flex;
-  margin: 24px 0;
-  padding: 24px 0;
+  
+ 
   gap: 40px;
+  display: flex;
 }
 
 .header-item-mail {
