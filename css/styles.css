@@ -257,7 +257,7 @@ img {
 
 
 
-display: flex;
+  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
@@ -265,7 +265,7 @@ display: flex;
 
 
 
- margin: 120px auto;
+ 
 }
 
 .section-item-desk {
