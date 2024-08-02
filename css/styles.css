@@ -284,6 +284,7 @@ margin-bottom: 8px;
 
 .sectoin-our-team {
   background-color: #F4F4FD;
+  margin: 120px 0;
   
   text-align: center;
 
@@ -298,7 +299,7 @@ margin-bottom: 8px;
   text-transform: capitalize;
   color: #2e2f42;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 
@@ -318,7 +319,7 @@ margin-bottom: 8px;
 }
 
 .con-portfolio {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
  .our-team-text {
