@@ -116,7 +116,7 @@ img {
 
 .adress {
   font-style: normal;
-  display: flex;
+  
   margin-left: auto;
 }
 
@@ -164,7 +164,7 @@ img {
 
 .section-hero {
   background: #2E2F42;
-  height: 600px;
+ 
   
 }
 
@@ -308,7 +308,7 @@ margin-bottom: 8px;
 
 .item-our-team {
   background-color: #FFFFFF;
-  width: calc((100%-72px) /4); 
+  width: calc((100% - 72px) /4); 
   border-radius: 0 0 4px 4px;  
 }
 
