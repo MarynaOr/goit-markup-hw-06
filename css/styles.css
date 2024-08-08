@@ -284,9 +284,6 @@ rgba(46, 47, 66, 0.7)),
 
 .icons{
    margin: 24px 100px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .class-link-icon:hover,
@@ -366,7 +363,21 @@ margin-bottom: 8px;
  svg {
   fill: currentColor;
  }
- .list-icon {
+ 
+
+ .item-icon-team {
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #404BBF;
+
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.list-icon {
    display: flex;
    gap: 24px;
    align-items: center;
@@ -375,14 +386,10 @@ margin-bottom: 8px;
     margin-top: 8px;
  }
 
- .item-icon-team {
+
+
   
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #404BBF;
-  
- }
+ 
 
  .icon-team {
   fill: #f4f4fd;
