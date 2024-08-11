@@ -494,6 +494,9 @@ transform: translateY(0%);
 .con-footer {
   display: flex;
 }
+.con-footer-text{
+  margin-right: 120px
+} 
 
 .footer {
   background-color: #2E2F42;
@@ -542,7 +545,9 @@ margin-bottom: 16px;
 
  .social-footer{
   width: 208px;
-  margin-left: 120px;
+  
+  align-items: baseline;
+  
  }
 
  .list-social {
@@ -555,8 +560,7 @@ margin-bottom: 16px;
  .social-item {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: #404BBF;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -569,7 +573,9 @@ margin-bottom: 16px;
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
+
+background-color: #4d5ae5;
+border-radius: 50%;
     
     
 }
@@ -582,7 +588,7 @@ margin-bottom: 16px;
 
  
  
-.social-item:hover {
+.social-link:hover {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
