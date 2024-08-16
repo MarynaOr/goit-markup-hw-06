@@ -12,6 +12,17 @@ body {
   min-height: 100vh;
 }
 
+/* button {
+  
+  font-family: inherit;
+  color: currentColor;
+    
+} 
+input {
+  font-family: inherit;
+}
+*/
+
 h1, h2, h3, h4, h5, h6, p {
   
   margin: 0;
@@ -44,7 +55,21 @@ img {
 }
 
 
-/* header-start */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* header */
 
 
 
@@ -240,18 +265,7 @@ rgba(46, 47, 66, 0.7)),
 
 
 
-.title-two {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 
 .list-section-two {
   display: flex;
