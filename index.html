@@ -536,9 +536,43 @@
 
     <!-- modal -->
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <p>Leave your contacts and we will call you back</p>
+        <button type="button" class="btn-close">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="text-modal">Leave your contacts and we will call you back</p>
+        <form class="form-modal">
+          <div class="con-modal">
+            <label for="user-name">Name</label>
+            <div>
+              <input type="" id="user-name" class="inp-modal" required />
+              <svg class="icon-modal">
+                <use></use>
+              </svg>
+            </div>
+          </div>
+          <div class="con-modal">
+            <label for="user-tel">Phone</label>
+            <div>
+              <input type="tel" id="user-tel" class="inp-modal" />
+              <svg class="icon-modal">
+                <use></use>
+              </svg>
+            </div>
+          </div>
+          <div class="con-modal">
+            <label for="user-mail">Email</label>
+            <div>
+              <input type="" id="user-mail" class="inp-modal" />
+              <svg class="icon-modal">
+                <use></use>
+              </svg>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
