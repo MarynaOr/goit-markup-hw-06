@@ -647,17 +647,29 @@ border-radius: 50%;
 
 .con-btn-form {
   display: flex;
+  gap: 24px;
 }
 
 
 .input-footer {
-  
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background-color: #2e2f42;
+  background-color: transparent;
   outline: transparent;
+  border: 1px solid #ffffff;
+}
+
+.input::placeholder {
+  color: #ffffff;
 }
 
 
@@ -673,18 +685,22 @@ border-radius: 50%;
 
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  background-color: #4d5ae5;
+  background-color: #4D5AE5;
   margin-left: 24px;
     
   border: none;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
+  cursor: pointer;
+
+  
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -695,6 +711,7 @@ border-radius: 50%;
   fill: #fff;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* margin-left: 16px; */
 }
 
 
@@ -754,6 +771,8 @@ transition:
  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
+padding: 72px 24px 24px 24px;
       
 }
 
@@ -774,6 +793,7 @@ transition:
   border-radius: 4px;
   position: absolute;
   padding: 24px;
+  
   top: 50%;
   left: 50%; 
   transform: translate(-50%, -50%);
@@ -800,14 +820,14 @@ transition:
   align-items: center;
   width: 24px;
   height: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
   padding: 0;
   line-height: 0;
   cursor: pointer;   
   margin-left: auto; 
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -825,7 +845,7 @@ transition:
   
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
+border: none;
 }
 
 
@@ -893,15 +913,16 @@ fill: #ffffff;
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
   width: 100%;
+  line-height: 1.17;
 }
 
 .con-input {
   position: relative;
+  margin-bottom: 16px
 }
 
 .inp-modal{
@@ -922,6 +943,7 @@ fill: #ffffff;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inp-modal:focus {
@@ -946,6 +968,14 @@ fill: #ffffff;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
+
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+
 }
 
 
@@ -962,21 +992,26 @@ fill: #ffffff;
   color: rgba(46, 47, 66, 0.4);
 }
 
-
+.input-check:checked {
+  border: none;
+}
 
 
 .input-check:checked + .label-check > .cust-checkbox {
   border-color: transparent;
   background-color: #404bbf;
+  fill: #F4F4FD;;
 }
 
-
-
+.con-checkbox {
+  margin-bottom: 24px;
+}
 
 
 .label-check {
   cursor: pointer;
-  margin-bottom: 24px;
+  line-height: 1.17;
+ 
 }
 
 .cust-checkbox {
@@ -988,6 +1023,10 @@ fill: #ffffff;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-yes {
@@ -1000,6 +1039,7 @@ fill: #ffffff;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
+  
 }
 
 
@@ -1011,9 +1051,8 @@ fill: #ffffff;
   text-align: center;
   color: #fff;
     
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+cursor: pointer;
   flex-direction: row;
   gap: 10px;
 
