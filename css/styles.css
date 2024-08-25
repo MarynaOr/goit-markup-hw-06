@@ -26,20 +26,20 @@ a {
 }
 
 .container {
- width: 320px;
+  max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
 
 @media  screen and (min-width:768px) {
   .container {
-      width: 768px;
+      max-width: 768px;
     }
 }
 
 @media screen and (min-width:1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 1px;
   }
 }
@@ -48,6 +48,10 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+button {
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -191,6 +195,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 
 /* #endregion hero */
 
+/* #region main */
+
+/* #region section-2 */
 
 
 
@@ -200,10 +207,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 
 
 
-
-
-
-
+/* #endregion main */
 
 @media screen and (min-width: px) {
 
