@@ -636,7 +636,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 .con-footer-text {
  max-width: 288px;
 text-align: center;
-margin-bottom: 72px;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -685,7 +685,6 @@ margin-bottom: 72px;
 
 .social-footer {
   min-width: 208px;
-  margin-bottom: 72px;
  }
 
 .social-text {
