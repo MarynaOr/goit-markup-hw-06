@@ -630,13 +630,19 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .con-footer {
+    justify-content: flex-start;
+  }
 }
 
 .con-footer-text {
  max-width: 288px;
 text-align: center;
-
+margin-bottom: 72px;
 }
 
 @media screen and (min-width: 768px) {
@@ -644,7 +650,7 @@ text-align: center;
   margin-right: 24px;
   max-width: 264px;
   text-align: left;
-  margin-bottom: 72px;
+ 
   }
 }
 
@@ -686,6 +692,13 @@ text-align: center;
 
 .social-footer {
   min-width: 208px;
+  margin-bottom: 72px;
+ }
+
+ @media screen and (min-width: 768px) {
+  .social-footer {
+    margin-bottom: 0;
+  }
  }
 
 .social-text {
