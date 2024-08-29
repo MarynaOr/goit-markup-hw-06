@@ -628,9 +628,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 
 .con-footer {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .con-footer-text {
@@ -644,7 +644,7 @@ text-align: center;
   margin-right: 24px;
   max-width: 264px;
   text-align: left;
-  
+  margin-bottom: 72px;
   }
 }
 
@@ -652,6 +652,7 @@ text-align: center;
 @media screen and (min-width: 1158px) {
   .con-footer-text {
   margin-right: 120px;
+  margin-bottom: 0;
   }
 }
 
@@ -751,6 +752,7 @@ text-align: center;
 @media screen and (min-width: 768px) {
   .con-inp-footer {
     min-width: 453px;
+    
     }
 }
 
