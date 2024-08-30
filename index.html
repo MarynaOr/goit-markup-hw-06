@@ -26,40 +26,77 @@
 
   <body>
     <!-- Header -->
-    <header class="header style">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo"
             >Web<span class="heder-logo-studio">Studio</span></a
           >
-          <ul class="list-header">
-            <li class="header-menu-item">
-              <a href="./index.html" class="header-item-studio current"
-                >Studio</a
-              >
-            </li>
-            <li class="header-menu-item">
-              <a href="" class="header-item-studio">Portfolio</a>
-            </li>
-            <li class="header-menu-item">
-              <a href="" class="header-item-studio">Contacts</a>
-            </li>
-          </ul>
         </nav>
-        <address class="adress">
-          <ul class="header-adress">
-            <li class="header-item-adress">
-              <a href="mailto:info@devstudio.com" class="header-item-mail"
+
+        <button type="button" class="mob-btn-is-open">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-menu-btn"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu">
+        <button type="button" class="mob-btn-is-close">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mob-list-header">
+          <li class="mob-header-menu-item">
+            <a href="./index.html" class="mob-header-item-studio">Studio</a>
+          </li>
+          <li class="mob-header-menu-item">
+            <a href="" class="mob-header-item-studio">Portfolio</a>
+          </li>
+          <li class="mob-header-menu-item">
+            <a href="" class="mob-header-item-studio">Contacts</a>
+          </li>
+        </ul>
+
+        <address class="mob-adress">
+          <ul class="mob-header-adress">
+            <li class="mob-header-item-adress">
+              <a href="mailto:info@devstudio.com" class="mob-header-item-mail"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="header-item-adress">
-              <a href="tel:+110001111111" class="header-item-mail"
+            <li class="mob-header-item-adress">
+              <a href="tel:+110001111111" class="mob-header-item-mail"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <div>
+          <ul class="mob-social-menu">
+            <li class="mob-item-social">
+              <svg width="24" height="24" class="mob-icons">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li class="mob-item-social">
+              <svg width="24" height="24" class="mob-icons">
+                <use href="./images/icons.svg#icon-Frame"></use>
+              </svg>
+            </li>
+            <li class="mob-item-social">
+              <svg width="24" height="24" class="mob-icons">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="mob-item-social">
+              <svg width="24" height="24" class="mob-icons">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- Main -->
