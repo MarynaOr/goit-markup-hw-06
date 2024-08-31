@@ -87,7 +87,7 @@ button {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .header-nav {
@@ -119,7 +119,9 @@ button {
   background-color: transparent;
   border: none;
   fill: #2f2f37;
-  
+  width: 24px;
+  height: 24px;
+  padding: 0;
  }
 
 .list-header {
@@ -190,20 +192,27 @@ button {
 
 /* mob-menu */
 
+
+
 .mob-menu {
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
   background-color: #fff;
-  z-index: 1;
-
+  z-index: 9;
   display: flex;
   flex-direction: column;
-
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
-
+.mob-menu.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
 
 .mob-btn-is-close {
   background-color: transparent;
@@ -221,7 +230,7 @@ button {
 
 .mob-btn-is-close:hover,
 .mob-btn-is-close:focus {
- background-color: rgba(0, 0, 0, 0.1); 
+  background-color: rgba(0, 0, 0, 0.1); 
 }
  
 
@@ -258,7 +267,7 @@ button {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: 16px;
+  padding-left: 16px;
   gap: 24px;
   margin-bottom: 48px;
 }
@@ -284,12 +293,11 @@ button {
 }
 
 .mob-social-menu {
-display: flex;
-
- margin-bottom: 40px;
- margin-left: 16px;
- gap: 40px;
- cursor: pointer;
+  display: flex; 
+  margin-bottom: 40px;
+  margin-left: 16px;
+  gap: 40px;
+  cursor: pointer;
 }
 
 .mob-item-social {
