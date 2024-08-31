@@ -263,10 +263,6 @@ button {
   margin-bottom: 48px;
 }
 
-.mob-header-item-adress {
-
-}
-
 .mob-header-item-mail {
   font-weight: 500;
   font-size: 20px;
@@ -281,15 +277,19 @@ button {
   color: #4d5ae5;
 }
 
+.mob-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 .mob-social-menu {
 display: flex;
-position: fixed;
-  bottom: 0;
-  width: 100%;
+
  margin-bottom: 40px;
  margin-left: 16px;
  gap: 40px;
+ cursor: pointer;
 }
 
 .mob-item-social {
